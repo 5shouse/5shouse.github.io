@@ -141,6 +141,13 @@ body {
   }
 }
 
+@media (max-height: 896px) {
+  .container-main {
+    overflow: visible;
+    height: 810px;
+  }
+}
+
 .container-fluid {
   max-width: calc(100% - 200px);
   margin: auto;
@@ -313,6 +320,14 @@ body {
           flex-direction: column;
 }
 
+@media (max-width: 520px) {
+  .home__text {
+    width: 80%;
+    height: 60%;
+    margin-top: 55%;
+  }
+}
+
 .home__title {
   font-family: SF Pro Display;
   font-weight: 300;
@@ -323,7 +338,7 @@ body {
 
 @media (max-width: 520px) {
   .home__title {
-    font-size: 64px;
+    font-size: 80px;
     width: 80%;
   }
 }
